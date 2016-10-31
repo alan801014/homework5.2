@@ -1,0 +1,32 @@
+body {
+background-color:lightgreen;
+color:whitesmoke;
+transition: 2s;}
+
+@media (max-width: 767px) 
+{
+body 
+{background-color:red;
+color:aqua
+transition: 2s;}
+}
+@media (max-width: 480px) 
+{
+body{background:orange;
+color:gold
+transition: 3s;}
+}
+
+@media (min-width: 768px) and (max-width: 979px) 
+{
+body{background:yellow;
+color:lightcoral;}
+}
+@media (min-width: 980px) 
+{
+body{background:green;
+color:pink;}
+    
+}
+@media (min-width: 1200px) {
+body{background:blue;}}
